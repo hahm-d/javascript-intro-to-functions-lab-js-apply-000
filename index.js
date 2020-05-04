@@ -7,11 +7,11 @@ function whisper(string){
 }
 
 function logShout(string){
-  return shout(string);
+  return console.log(shout(string));
 }
 
 function logWhisper(string){
-  return whisper(string);
+  return console.log(whisper(string));
 }
 
 function sayHiToGrandma(string){
